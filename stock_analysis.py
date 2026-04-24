@@ -1,4 +1,4 @@
-mport yfinance as yf
+import yfinance as yf
 
 # download stock data
 df = yf.download("AAPL", period="1mo")
