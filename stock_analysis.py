@@ -25,3 +25,8 @@ print(df.describe())
 df.to_csv("output_stock_data.csv")
 
 print("Pipeline completed successfully ✔")
+
+
+df['Return'] = df['Close'].pct_change()
+df['Target'] = (df['Close'].shift(-1) > df['Close']).astype(int)
+df.dropna(inplace=True)
