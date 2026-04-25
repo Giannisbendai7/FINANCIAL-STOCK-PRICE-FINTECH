@@ -38,3 +38,6 @@ import joblib
 joblib.dump(model, "stock_model.pkl")
 
 print("Pipeline completed successfully ✔")
+
+import joblib
+joblib.dump(model, "stock_model.pkl")
