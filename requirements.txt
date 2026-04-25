@@ -1,4 +1,5 @@
-yfinance
-pandas
+fastapi
+uvicorn
 scikit-learn
 joblib
+pandas
